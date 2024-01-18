@@ -70,23 +70,28 @@ function Testimonials() {
   //   };
 
   return (
-    <div className="testimonials">
-      <div
-        className="testimonial-container"
-        style={{
-          transform: `translateX(${-currentIndex * 100}%)`,
-          width: `${testimonials.length * 100}%`,
-        }}
-      >
-        {testimonials.map((testimonial, index) => (
-          <div key={index} className="testimonial">
-            <h3>{testimonial.name}</h3>
-            <p>{`${testimonial.age}, ${testimonial.profession}`}</p>
-            <p>{testimonial.feedback}</p>
-          </div>
-        ))}
+    <>
+      <div className="testimonials">
+        <h2 style={{ textAlign: `center`, width: `100%` }}>
+          Our Patient Recovery Stories
+        </h2>
+        <div
+          className="testimonial-container"
+          style={{
+            transform: `translateX(${-currentIndex * 100}%)`,
+            width: `${testimonials.length * 100}%`,
+          }}
+        >
+          {testimonials.map((testimonial, index) => (
+            <div key={index} className="testimonial">
+              <h3>{testimonial.name}</h3>
+              <p>{`${testimonial.age}, ${testimonial.profession}`}</p>
+              <p>{testimonial.feedback}</p>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

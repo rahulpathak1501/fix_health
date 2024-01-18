@@ -140,10 +140,9 @@ function BookingForm() {
             >
               {filteredDoctors.length === 0 && (
                 <>
-                  <option value="">Select a doctor</option>
-                  <option value="" disabled="true">
-                    Type Your City Name First / We Don't provide service in Your
-                    City
+                  <option value="" disabled>
+                    No doctors available in your city. Please select another
+                    city.
                   </option>
                 </>
               )}
