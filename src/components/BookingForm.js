@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import doctorsData from "../json/doctorsData.json";
 
 function BookingForm() {
@@ -142,7 +142,8 @@ function BookingForm() {
                 <>
                   <option value="">Select a doctor</option>
                   <option value="" disabled="true">
-                    Type Your City Name First
+                    Type Your City Name First / We Don't provide service in Your
+                    City
                   </option>
                 </>
               )}

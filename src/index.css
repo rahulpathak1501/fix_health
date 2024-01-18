@@ -6,7 +6,8 @@ body {
 }
 
 .app {
-  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 20px;
 }
@@ -14,8 +15,16 @@ body {
 .hero {
   text-align: center;
   padding: 50px 0;
-  background: url('C:\coding ninja\react js learning project\fix-health\image\istockphoto.jpg') center/cover;
+  background-image: url('C:\coding ninja\react js learning project\fix-health\image\istockphoto.jpg');
+  background-color: #c5f0f8;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
+  width: 100%;
+  height: 50vh;
+  /* aspect-ratio: 10/2;
+  object-fit: contain; */
 }
 
 .booking-form {
@@ -23,6 +32,7 @@ body {
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;
+  width: 100%;
 }
 
 .booking-form h2{
@@ -92,4 +102,5 @@ button:hover {
   margin-bottom: 20px;
   border: 1px solid #666;
   border-radius: 8px;
+  height: 100%;
 }
