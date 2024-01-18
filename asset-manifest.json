@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fix_health/static/css/main.2083e6fb.css",
-    "main.js": "/fix_health/static/js/main.3977920c.js",
+    "main.css": "/fix_health/static/css/main.7fd51d18.css",
+    "main.js": "/fix_health/static/js/main.7688d782.js",
     "static/media/istockphoto.jpg": "/fix_health/static/media/istockphoto.839cd3d59cff5e9f749c.jpg",
     "index.html": "/fix_health/index.html",
-    "main.2083e6fb.css.map": "/fix_health/static/css/main.2083e6fb.css.map",
-    "main.3977920c.js.map": "/fix_health/static/js/main.3977920c.js.map"
+    "main.7fd51d18.css.map": "/fix_health/static/css/main.7fd51d18.css.map",
+    "main.7688d782.js.map": "/fix_health/static/js/main.7688d782.js.map"
   },
   "entrypoints": [
-    "static/css/main.2083e6fb.css",
-    "static/js/main.3977920c.js"
+    "static/css/main.7fd51d18.css",
+    "static/js/main.7688d782.js"
   ]
 }
